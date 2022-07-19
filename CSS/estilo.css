@@ -98,6 +98,7 @@ li .dropdown-item:hover {
     font-size: 32px;
   }
 }
+
 /* Seccion Galería */
 .Subtitulo h2 {
   color: #fff;
@@ -106,6 +107,10 @@ li .dropdown-item:hover {
 
 .title {
   color: #fff;
+}
+
+.titleDos{
+  color: #000;
 }
 
 .fotos-galeria {
@@ -253,11 +258,27 @@ li .dropdown-item:hover {
 }
 
 .subir {
-  color: orange;
-  font-size: 40px;
-  left: 98%;
+  z-index: 1;
+  background-color: #0d6efd;
+  border: solid 1px #fff;
+  border-radius: 30px;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  left: 94%;
   top: 90%;
   position: sticky;
+}
+.fa-solid:hover{
+  animation: rubberBand;
+  animation-duration: 1s;
+}
+.fa-solid{
+  font-size: 30px;
+}
+
+.fa-trash-can{
+font-size: 20px;
 }
 
 /* INFORMACION.HTML */
@@ -311,6 +332,10 @@ li .dropdown-item:hover {
 #Form__1 {
   font-family: "Grape Nuts", cursive;
   margin: 20px;
+}
+
+.font{
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 @media only screen and (min-width: 250px) and (max-width: 459px) {
