@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cupcakes",
+        "precio": 1530,
+        "cantidad": 0
+    },
+    {
+        "id": 2,
+        "nombre": "The Simpsons",
+        "precio": 1530,
+        "cantidad": 0
+    },
+    {
+        "id": 3,
+        "nombre": "Monster INC",
+        "precio": 1530,
+        "cantidad": 0
+    },
+    {
+        "id": 4,
+        "nombre": "Stitch",
+        "precio": 2100,
+        "cantidad": 0
+    },
+    {
+        "id": 5,
+        "nombre": "Paltas Love's",
+        "precio": 2100,
+        "cantidad": 0
+    },
+    {
+        "id": 6,
+        "nombre": "Grey's Anatomy",
+        "precio": 2100,
+        "cantidad": 0
+    },
+    {
+        "id": 7,
+        "nombre": "Cactus",
+        "precio": 2100,
+        "cantidad": 0
+    },
+    {
+        "id": 8,
+        "nombre": "Dreams",
+        "precio": 2100,
+        "cantidad": 0
+    },
+    {
+        "id": 9,
+        "nombre": "Cookies",
+        "precio": 2100,
+        "cantidad": 0
+    },
+    {
+        "id": 10,
+        "nombre": "Sponge Bob",
+        "precio": 2300,
+        "cantidad": 0
+    },
+    {
+        "id": 11,
+        "nombre": "Stranger Things",
+        "precio": 2300,
+        "cantidad": 0
+    },
+    {
+        "id": 12,
+        "nombre": "Pig",
+        "precio": 2300,
+        "cantidad": 0
+    }
+]
