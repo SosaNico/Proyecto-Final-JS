@@ -116,15 +116,14 @@
             <h5 class="offcanvas-title fs-3 text-center" id="offcanvasWithBackdropLabel">Carrito<span id="offcanvas" class="fs-5"></span></h5>
             
             <table class="table align-middle m-0">
-            <thead>
-                <tr>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Precio</th>
-                    <th colspan="3" scope="col" class="text-center">Cantidad</th>
-                </tr>
-            </thead>
-        </table>
-            
+                <thead>
+                    <tr>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Precio</th>
+                        <th colspan="3" scope="col" class="text-center">Cantidad</th>
+                    </tr>
+                </thead>
+            </table>            
         </div>
         <div class="offcanvas-body row">
             <table class="table align-middle">
@@ -133,6 +132,9 @@
 
                 </tbody>
             </table>
+            <div id="finalizarCompra">
+
+            </div>
         </div>
     </div>
 
@@ -169,7 +171,7 @@
 
         <section id="portada2" class="row justify-content-center">
             <div class="Subtitulo col-12 d-flex justify-content-center">
-                <h2 class="display-5 fw-bold">Galería:</h2>
+                <h2 class="display-5 fw-bold">Productos:</h2>
             </div>
 
             <div class="container d-flex justify-content-center">
@@ -177,69 +179,6 @@
                 </div>
             </div>
         </section>
-        <section id="envios" class="container-fluid row">
-
-            <form action="" method="post" enctype="" id="Formulario" class="col-6 mb-3">
-                <fieldset id="Form__1" class="row">
-                    <legend class="Color__letra subtitulo">Información de envío:</legend>
-                    <div class="d-flex">
-                        <label for="Pais" class="Color__letra pais fs-3">País:</label>
-                    </div>
-                    <div class="">
-                        <select name="País" id="Selector__región" class="form-select opciones fs-5 w-auto"
-                            aria-label="Default select example">
-                            <option value="Argentina">Argentina</option>
-                            <option value="Chile">Chile</option>
-                            <option value="Brasil">Brasil</option>
-                        </select>
-                    </div>
-                    <div class="Color__letra sexo fs-3">Sexo:</div>
-                    <div class="Color__letra sexo-1 fs-5"><input type="radio" name="sexo" value="hombre"
-                            class="form-check-input"> Hombre</div>
-                    <div class="Color__letra sexo-1 fs-5"><input type="radio" name="sexo" value="hombre"
-                            class="form-check-input"> Mujer</div>
-                    <div class="Color__letra sexo-1 fs-5"><input type="radio" name="sexo" value="hombre"
-                            class="form-check-input"> Otro</div>
-                    <div><label for="nombre_apellido" class="Color__letra datos fs-3">Nombre:</label></div>
-                    <input type="text" name="nombre_apellido" placeholder="Nombre" class="form-control w-100 fs-5"
-                        id="exampleInputPassword1" required>
-                    <div><label for="nombre_apellido" class="Color__letra datos fs-3">Apellido:</label></div>
-                    <input type="text" name="nombre_apellido" placeholder="Apellido" class="form-control w-100 fs-5"
-                        id="exampleInputPassword1" required>
-                    <div><label for="email" class="Color__letra datos fs-3">Correo:</label></div>
-                    <input type="email" name="nombre_apellido" placeholder="Correo123@curso.com"
-                        class="form-control w-100 fs-5" id="exampleInputPassword1" required>
-                    <div><label for="Dirección" class="Color__letra datos fs-3">Dirección:</label></div>
-                    <input type="text" name="nombre_apellido" placeholder="Ej: Gutierrez 2525"
-                        class="form-control w-100 fs-5" id="exampleInputPassword1" required>
-                    <div><label for="Talles" class="Color__letra talle fs-3">Talle:</label></div>
-
-                    <select name="talles" id="Selector__talles" class="form-select fs-5 w-auto m-0"
-                        aria-label="Default select example">
-                        <option value="XL">Extra-Large</option>
-                        <option value="L">Large</option>
-                        <option value="M">Medium</option>
-                        <option value="S">Small</option>
-                    </select> <br>
-                    <div class="Color__letra opinion fs-3"><u>Observaciones:</u></div>
-                    <div class="Textarea">
-                        <textarea class="font form-control w-100 fs-5" id="exampleFormControlTextarea1"
-                            placeholder="Escribe Aquí..." rows="3"></textarea>
-                    </div>
-                    <div>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="Color__letra terminos form-check-label fs-5" for="flexCheckDefault">Acepto recibir
-                            informacion, promociones y novedades via e-mail</label>
-                    </div>
-                    <div>
-                        <button type="submit" class="btn btn-primary fs-5 m-2" id="Botones">Enviar</button>
-                        <button type="reset" class="btn btn-dark fs-5 m-2" id="Botones">Borrar</button>
-                    </div>
-                </fieldset>
-
-        </section>
-
-
 
         <section id="portada3" class="row justify-content-center">
             <div class="row">
